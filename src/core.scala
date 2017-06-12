@@ -28,7 +28,8 @@ class core {
   //Input - Input sentence string
   def parse(sentence: String): String = {
     val p = new parser
-    var res = p.parseSentence(sentence)
+    var s = sentence.replaceAll(",", "")
+    var res = p.parseSentence(s)
     println(res)
     //returning generic print with sentence for now
     "\nprintf(\""+ sentence +"\");"
