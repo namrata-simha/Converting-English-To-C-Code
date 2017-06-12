@@ -3,7 +3,7 @@ In this project, I selected a particular construct from the C language and wrote
 
 ## Running Instructions:
 * Start a new project in your Eclipse IDE for Scala. If you haven't already downloaded and set this up, [click here](http://scala-ide.org/) for the download link. If you need help setting it up and getting started, [here](https://www.youtube.com/watch?v=PtkNg4mK4NY) is a nice tutorial for the same!
-* Add the 4 files in my [src](src/) folder and run the main as a Scala Application.
+* Add the 4 files in my [src](src/) folder to your project src folder and run the main as a Scala Application.
 * Type in your sentence and check if the C code matches what you expected. The output of the C code will also be displayed.
 
 ## Restrictions on Input:
