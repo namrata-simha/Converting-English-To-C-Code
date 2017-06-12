@@ -17,3 +17,6 @@ case class If(e1:Eng, e2:Then) extends Eng {
 case class Apply(e1:If, e2:Eng) extends Eng {
   override def toString() = "[" + e1.toString + e2.toString + "]" 
 }
+case class Other(e1:Eng, e2:Eng) extends Eng {
+  override def toString() = "*" + e1.toString + "*" + e2.toString + "*" 
+}
