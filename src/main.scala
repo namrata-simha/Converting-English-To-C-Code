@@ -22,7 +22,7 @@ object main{
 	  finalString = finalString + "\n}"
 	
 	  //write finalString to C file
-	  c.writeToFile(finalString)  /*WRITE DHAWAL'S NAME IN REPORT FOR THIS ONE*/
+	  c.writeToFile(finalString)
 	  
 	  //run generated C code to see final output
 	  c.run("test.c", 'C')
