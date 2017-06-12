@@ -12,3 +12,4 @@ In this project, I selected a particular construct from the C language and wrote
 * Can only have sentences containing "I have", "She has" or "They had" or such with other pronouns only with respect to information being provided about variables in the sentence.
 * Can contain only 2 consecutive input sentences.
 * Can only use comparators >,< and == in the if conditions.
+* No full-stop at the end of the last sentence in the input. (may it be the first or the second)
